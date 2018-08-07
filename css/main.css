@@ -84,3 +84,18 @@ li a:hover {
   padding-right: 8px;
   vertical-align: middle;
 }
+
+.blurb {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.section-header {
+  vertical-align: middle;
+  width: 25%;
+}
+
+.section-text {
+  vertical-align: left;
+  width: 75%;
+}
