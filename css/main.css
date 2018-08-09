@@ -1,101 +1,12 @@
-* {
-  box-sizing: border-box;
+.center-text {
+  text-align:center;
 }
 
-/* Create two unequal columns that floats next to each other */
-.column {
-  float: left;
-  /*padding: 10px; */
-  /*height: 300px; /* Should be removed. Only for demonstration */
-}
-
-.left {
-width: 25%;
-text-align: center;
-}
-
-.right {
-width: 75%;
-}
-
-.col-container {
-  display: table; /* Make the container element behave like a table */
-  width: 100%; /* Set full-width to expand the whole page */
-}
-
-.col {
-  display: table-cell; /* Make elements inside the container behave like table cells */
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
+.table {
   display: table;
-  clear: both;
 }
-
-.icon {
-  color: black;
-  padding-left: 1.2%;
-  padding-right: 1.2%;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+.section-title {
   display: flex;
-  justify-content: space-around;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
-
-/* About Wrap */
-.about {
-  background: #2c3e50;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: white;
-} 
-
-.about h3, p {
-  color: white;
-}
-
-.about i {
-  color: white;
-  font-size: 20px;
-  padding-right: 8px;
-  vertical-align: middle;
-}
-
-.blurb {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.section-header {
-  vertical-align: middle;
-  width: 25%;
-}
-
-.section-text {
-  vertical-align: left;
-  width: 75%;
+  align-items: center;
+  justify-content: center;
 }
