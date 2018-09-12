@@ -1,7 +1,9 @@
+html, body { height: 100%; }
+/*
 div.intro {
     background-color: black;
     width: 100%;
-    paddingdir(down):5%;
+    paddingdir(down):5%; idk what this line did lmao, figure it out when you have time 
     
 }
 #name {
@@ -12,3 +14,4 @@ div.intro {
 b {
     color:blue;
 }
+*/
