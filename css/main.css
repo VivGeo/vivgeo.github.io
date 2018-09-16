@@ -86,3 +86,9 @@ body {
   visibility: visible;
   opacity: 1;
 }
+
+.project-img {
+  padding: 3%;
+  padding-top:1%;
+  padding-bottom:1%;
+}
